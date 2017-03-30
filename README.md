@@ -30,5 +30,4 @@ http://www-nlp.stanford.edu/fsnlp/
 
 
 # Summary
-Aquí hay un buen [listado de cursos de NLP](https://www.quora.com/What-is-the-best-natural-language-processing-MOOC/answer/Franck-Dernoncourt?srid=zLfZ). Una vez hechos los generalistas (Jurafsky
-[CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/syllabus.html)
+Aquí hay un buen [listado de cursos de NLP](https://www.quora.com/What-is-the-best-natural-language-processing-MOOC/answer/Franck-Dernoncourt?srid=zLfZ). Una vez hechos los generalistas (e.g. Jurafsky) se pueden ver los conceptos avanzados del curso [CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/syllabus.html)
