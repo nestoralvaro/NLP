@@ -27,3 +27,8 @@ http://www.nltk.org/book/
 
 ## Foundations of Statistical Natural Language Processing
 http://www-nlp.stanford.edu/fsnlp/
+
+
+# Summary
+Aquí hay un buen [listado de cursos de NLP](https://www.quora.com/What-is-the-best-natural-language-processing-MOOC/answer/Franck-Dernoncourt?srid=zLfZ). Una vez hechos los generalistas (Jurafsky
+[CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/syllabus.html)
