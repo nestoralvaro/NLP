@@ -31,3 +31,5 @@ http://www-nlp.stanford.edu/fsnlp/
 
 # Summary
 Aquí hay un buen [listado de cursos de NLP](https://www.quora.com/What-is-the-best-natural-language-processing-MOOC/answer/Franck-Dernoncourt?srid=zLfZ). Una vez hechos los generalistas (e.g. Jurafsky) se pueden ver los conceptos avanzados del curso [CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/syllabus.html)
+<br/>
+No directamente relacionado con NLP, pero en la línea del "data science". Este post habla de cursos que pueden ser interesantes: [The best Data Science courses on the internet, ranked by your reviews](https://medium.freecodecamp.com/the-best-data-science-courses-on-the-internet-ranked-by-your-reviews-6dc5b910ea40)
