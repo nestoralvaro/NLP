@@ -16,7 +16,8 @@ https://github.com/oxford-cs-deepnlp-2017/lectures
 
 # Other resources (Blog posts/Articles/Papers/Books)
 
-## Awesome Linguistics Resources for Spanish https://github.com/dav009/awesome-spanish-nlp
+## Awesome Linguistics Resources for Spanish
+https://github.com/dav009/awesome-spanish-nlp
 
 ## The Two Paths from Natural Language Processing to Artificial Intelligence
 https://medium.com/intuitionmachine/the-two-paths-from-natural-language-processing-to-artificial-intelligence-d5384ddbfc18#.oetsm8wbc
