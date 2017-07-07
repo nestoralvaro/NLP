@@ -2,7 +2,7 @@
 ## Como hacerse una carrera en NLP
 http://vitojph.github.io/misc/lingwars/#1
 
-## También para Científico de datos
+## También para científico de datos
 (Ver abajo del todo -> "Cómo crearse un Currículum como Data Scientist")
 
 # Courses (Videos/PPTs)
