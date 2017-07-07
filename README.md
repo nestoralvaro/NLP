@@ -2,6 +2,8 @@
 ## Como hacerse una carrera en NLP
 http://vitojph.github.io/misc/lingwars/#1
 
+## También para Científico de datos
+(Ver abajo del todo -> "Cómo crearse un Currículum como Data Scientist")
 
 # Courses (Videos/PPTs)
 ## Natural Language Processing | University of Michigan
@@ -41,3 +43,5 @@ No directamente relacionado con NLP, pero en la línea del "data science".
 Este post habla de cursos que pueden ser interesantes: [The best Data Science courses on the internet, ranked by your reviews](https://medium.freecodecamp.com/the-best-data-science-courses-on-the-internet-ranked-by-your-reviews-6dc5b910ea40)
 <br/>
 En este otro post hay un buen conjunto de cheatsheets: [Essential Cheat Sheets for Machine Learning and Deep Learning Engineers](https://medium.com/@kailashahirwar/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5)
+<br/>
+Un buen post donde explican [cómo crearse un Currículum como Data Scientist sin haber trabajado profesionalmente en este campo](https://blog.statsbot.co/data-scientist-resume-projects-806a74388ae6?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BAMXcx%2FGtQ5GRc3LWNNB35Q%3D%3D)
