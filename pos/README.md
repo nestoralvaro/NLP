@@ -11,6 +11,7 @@ To use the tagger the first action is to import it to the project
 ```
 from POS_tagger import POS_tagger
 ```
+<br/>
 ##  Loading the tagger
 Following, you have to load it using the desired configuration.
 <br/>
@@ -19,6 +20,7 @@ The configuration variables are contained in the `config` file, so to use it we 
 from config import STANFORD_TAGGER_NAME
 from config import NLTK_TAGGER_NAME
 ```
+<br/>
 ###  Loading Stanford tagger
 For loading the Stanford tagger, use the following command
 ```
@@ -30,6 +32,7 @@ For loading NLTK tagger, use the following command
 ```
 pos_tagger = POS_tagger(NLTK_TAGGER_NAME)
 ```
+<br/>
 ##  Using the tagger
 Lastly, we can tag the sentences.
 <br/>
@@ -50,6 +53,7 @@ all_tags = pos_tagger.get_tags(sentence_words)
 ```
 <br/>
 As these results are not very easy to read we provide utility functions to obtain different elements in the sentence.
+<br/>
 ### Obtaining the adjectives in the sentence
 To obtain the adjectives in hte sentence we run the following command
 ```
@@ -59,6 +63,7 @@ pos_tagger.detect_adjectives(all_tags)
 # Result when using NLTK tagger:
 # ['interesante']
 ```
+<br/>
 ### Obtaining the nouns in the sentence
 To obtain the adjectives in hte sentence we run the following command
 ```
@@ -68,6 +73,7 @@ pos_tagger.detect_nouns(all_tags)
 # Result when using NLTK tagger:
 # ['prueba']
 ```
+<br/>
 ### Obtaining the verbs in the sentence
 To obtain the verbs in hte sentence we run the following command
 ```
