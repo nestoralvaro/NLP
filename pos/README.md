@@ -18,6 +18,7 @@ Following, you have to load it using the desired configuration.
 The configuration variables are contained in the `config` file, so to use it we load it.
 <br/>
 ```
+
 from config import STANFORD_TAGGER_NAME
 
 from config import NLTK_TAGGER_NAME
