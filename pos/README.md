@@ -16,6 +16,7 @@ from POS_tagger import POS_tagger
 Following, you have to load it using the desired configuration.
 <br/>
 The configuration variables are contained in the `config` file, so to use it we load it.
+<br/>
 ```
 from config import STANFORD_TAGGER_NAME
 from config import NLTK_TAGGER_NAME
@@ -23,12 +24,14 @@ from config import NLTK_TAGGER_NAME
 <br/>
 ###  Loading Stanford tagger
 For loading the Stanford tagger, use the following command
+<br/>
 ```
 pos_tagger = POS_tagger(STANFORD_TAGGER_NAME)
 ```
 <br/>
 ###  Loading NLTK tagger
 For loading NLTK tagger, use the following command
+<br/>
 ```
 pos_tagger = POS_tagger(NLTK_TAGGER_NAME)
 ```
@@ -37,6 +40,7 @@ pos_tagger = POS_tagger(NLTK_TAGGER_NAME)
 Lastly, we can tag the sentences.
 <br/>
 The sentences should be passed to the tagger as a list of words. To do so we use the tokenization function provided in NLTK.
+<br/>
 ```
 sentence = "Esto es una prueba interesante."
 from nltk.tokenize import word_tokenize
@@ -44,6 +48,7 @@ sentence_words = word_tokenize(sentence)
 ```
 <br/>
 Following, we can obtain all the tags
+<br/>
 ```
 all_tags = pos_tagger.get_tags(sentence_words)
 # Result when using Stanford tagger:
@@ -56,6 +61,7 @@ As these results are not very easy to read we provide utility functions to obtai
 <br/>
 ### Obtaining the adjectives in the sentence
 To obtain the adjectives in hte sentence we run the following command
+<br/>
 ```
 pos_tagger.detect_adjectives(all_tags)
 # Result when using Stanford tagger:
@@ -66,6 +72,7 @@ pos_tagger.detect_adjectives(all_tags)
 <br/>
 ### Obtaining the nouns in the sentence
 To obtain the adjectives in hte sentence we run the following command
+<br/>
 ```
 pos_tagger.detect_nouns(all_tags)
 # Result when using Stanford tagger:
@@ -76,6 +83,7 @@ pos_tagger.detect_nouns(all_tags)
 <br/>
 ### Obtaining the verbs in the sentence
 To obtain the verbs in hte sentence we run the following command
+<br/>
 ```
 pos_tagger.detect_verbs(all_tags)
 # Result when using Stanford tagger:
