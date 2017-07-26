@@ -32,6 +32,7 @@ from config import NLTK_TAGGER_NAME
 ```
 
 <br/>
+
 ###  Loading Stanford tagger
 For loading the Stanford tagger, use the following command
 <br/>
@@ -41,6 +42,7 @@ pos_tagger = POS_tagger(STANFORD_TAGGER_NAME)
 ```
 
 <br/>
+
 ###  Loading NLTK tagger
 For loading NLTK tagger, use the following command
 <br/>
@@ -50,6 +52,7 @@ pos_tagger = POS_tagger(NLTK_TAGGER_NAME)
 ```
 
 <br/>
+
 ##  Using the tagger
 Lastly, we can tag the sentences.
 <br/>
