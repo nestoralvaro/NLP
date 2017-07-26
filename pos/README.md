@@ -60,6 +60,7 @@ Following, we can obtain all the tags
 ```
 all_tags = pos_tagger.get_tags(sentence_words)
 
+<<<<<<< HEAD
 """
 Result when using Stanford tagger:
 
@@ -69,6 +70,15 @@ Result when using NLTK tagger:
 
 [('Esto', u'pd0ns000'), ('es', u'vsip3s0'), ('una', u'di0fs0'), ('prueba', u'ncfs000'), ('interesante', u'aq0cs0'), ('.', u'Fp')]
 """
+=======
+# Result when using Stanford tagger:
+
+#   [(u'Esto', u'pd000000'), (u'es', u'vsip000'), (u'una', u'di0000'), (u'prueba', u'nc0s000'), (u'interesante', u'aq0000'), (u'.', u'fp')]
+
+# Result when using NLTK tagger:
+
+#   [('Esto', u'pd0ns000'), ('es', u'vsip3s0'), ('una', u'di0fs0'), ('prueba', u'ncfs000'), ('interesante', u'aq0cs0'), ('.', u'Fp')]
+>>>>>>> 293714a1e827d24ed541ad0e6ccb603331b95319
 ```
 <br/>
 As these results are not very easy to read we provide utility functions to obtain different elements in the sentence.
@@ -79,6 +89,7 @@ To obtain the adjectives in hte sentence we run the following command
 ```
 pos_tagger.detect_adjectives(all_tags)
 
+<<<<<<< HEAD
 """
 Result when using Stanford tagger:
 
@@ -88,6 +99,15 @@ Result when using NLTK tagger:
 
 ['interesante']
 """
+=======
+# Result when using Stanford tagger:
+
+# [u'interesante']
+
+# Result when using NLTK tagger:
+
+# ['interesante']
+>>>>>>> 293714a1e827d24ed541ad0e6ccb603331b95319
 ```
 <br/>
 ### Obtaining the nouns in the sentence
@@ -96,6 +116,7 @@ To obtain the adjectives in hte sentence we run the following command
 ```
 pos_tagger.detect_nouns(all_tags)
 
+<<<<<<< HEAD
 """
 Result when using Stanford tagger:
 
@@ -105,6 +126,15 @@ Result when using NLTK tagger:
 
 ['prueba']
 """
+=======
+# Result when using Stanford tagger:
+
+# [u'prueba']
+
+# Result when using NLTK tagger:
+
+# ['prueba']
+>>>>>>> 293714a1e827d24ed541ad0e6ccb603331b95319
 ```
 <br/>
 ### Obtaining the verbs in the sentence
@@ -113,6 +143,7 @@ To obtain the verbs in hte sentence we run the following command
 ```
 pos_tagger.detect_verbs(all_tags)
 
+<<<<<<< HEAD
 """
 Result when using Stanford tagger:
 
@@ -122,4 +153,13 @@ Result when using NLTK tagger:
 
 ['es']
 """
+=======
+# Result when using Stanford tagger:
+
+# [u'es']
+
+# Result when using NLTK tagger:
+
+# ['es']
+>>>>>>> 293714a1e827d24ed541ad0e6ccb603331b95319
 ```
