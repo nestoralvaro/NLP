@@ -13,6 +13,7 @@ from POS_tagger import POS_tagger
 ```
 <br/>
 ##  Loading the tagger
+<br/>
 Following, you have to load it using the desired configuration.
 <br/>
 The configuration variables are contained in the `config` file, so to use it we load it.
