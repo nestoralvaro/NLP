@@ -19,6 +19,7 @@ The configuration variables are contained in the `config` file, so to use it we 
 <br/>
 ```
 from config import STANFORD_TAGGER_NAME
+
 from config import NLTK_TAGGER_NAME
 ```
 <br/>
@@ -43,7 +44,9 @@ The sentences should be passed to the tagger as a list of words. To do so we use
 <br/>
 ```
 sentence = "Esto es una prueba interesante."
+
 from nltk.tokenize import word_tokenize
+
 sentence_words = word_tokenize(sentence)
 ```
 <br/>
@@ -51,9 +54,13 @@ Following, we can obtain all the tags
 <br/>
 ```
 all_tags = pos_tagger.get_tags(sentence_words)
+
 # Result when using Stanford tagger:
+
 #   [(u'Esto', u'pd000000'), (u'es', u'vsip000'), (u'una', u'di0000'), (u'prueba', u'nc0s000'), (u'interesante', u'aq0000'), (u'.', u'fp')]
+
 # Result when using NLTK tagger:
+
 #   [('Esto', u'pd0ns000'), ('es', u'vsip3s0'), ('una', u'di0fs0'), ('prueba', u'ncfs000'), ('interesante', u'aq0cs0'), ('.', u'Fp')]
 ```
 <br/>
@@ -64,9 +71,13 @@ To obtain the adjectives in hte sentence we run the following command
 <br/>
 ```
 pos_tagger.detect_adjectives(all_tags)
+
 # Result when using Stanford tagger:
+
 # [u'interesante']
+
 # Result when using NLTK tagger:
+
 # ['interesante']
 ```
 <br/>
@@ -75,9 +86,13 @@ To obtain the adjectives in hte sentence we run the following command
 <br/>
 ```
 pos_tagger.detect_nouns(all_tags)
+
 # Result when using Stanford tagger:
+
 # [u'prueba']
+
 # Result when using NLTK tagger:
+
 # ['prueba']
 ```
 <br/>
@@ -86,8 +101,12 @@ To obtain the verbs in hte sentence we run the following command
 <br/>
 ```
 pos_tagger.detect_verbs(all_tags)
+
 # Result when using Stanford tagger:
+
 # [u'es']
+
 # Result when using NLTK tagger:
+
 # ['es']
 ```
