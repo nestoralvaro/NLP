@@ -16,6 +16,7 @@ from POS_tagger import POS_tagger
 
 ```
 <br/>
+
 ##  Loading the tagger
 <br/>
 Following, you have to load it using the desired configuration.
