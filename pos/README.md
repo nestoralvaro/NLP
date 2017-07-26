@@ -22,9 +22,7 @@ The configuration variables are contained in the `config` file, so to use it we 
 <br/>
 
 ```
-
 from config import STANFORD_TAGGER_NAME
-
 from config import NLTK_TAGGER_NAME
 ```
 
@@ -61,9 +59,7 @@ Following, we can obtain all the tags
 
 ```
 all_tags = pos_tagger.get_tags(sentence_words)
-
-"""
-Result when using Stanford tagger:
+# Result when using Stanford tagger:
 #   [(u'Esto', u'pd000000'), (u'es', u'vsip000'), (u'una', u'di0000'), (u'prueba', u'nc0s000'), (u'interesante', u'aq0000'), (u'.', u'fp')]
 # Result when using NLTK tagger:
 #   [('Esto', u'pd0ns000'), ('es', u'vsip3s0'), ('una', u'di0fs0'), ('prueba', u'ncfs000'), ('interesante', u'aq0cs0'), ('.', u'Fp')]
