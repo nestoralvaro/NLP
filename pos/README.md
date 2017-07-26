@@ -8,8 +8,11 @@ There are two different taggers that can be used
 
 ##  Importing the library
 To use the tagger the first action is to import it to the project
+<br/>
 ```
+
 from POS_tagger import POS_tagger
+
 ```
 <br/>
 ##  Loading the tagger
