@@ -15,6 +15,21 @@ https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1162/syllabus.shtml
 ## Oxford Deep NLP
 https://github.com/oxford-cs-deepnlp-2017/lectures
 
+## Text Retrieval and Search Engines
+[Text Retrieval and Search Engines by UIUC ChengXiang Zhai (Spring 2015; 16-24 workload; Coursera)](https://www.coursera.org/learn/text-retrieval)
+
+## Text Mining and Analytics
+[Text Mining and Analytics by UIUC ChengXiang Zhai (Spring 2015; 20-40 workload; Coursera)](https://www.coursera.org/learn/text-mining)
+
+## Machine Translation
+[Machine Translation](http://mt-class.org/)
+
+# Semantic Web Technologies
+[Semantic Web Technologies by HPI Harald Sack (Spring 2013, HPI)](https://open.hpi.de/courses/semanticweb)
+
+# Knowledge Engineering with Semantic Web Technologies
+[Knowledge Engineering with Semantic Web Technologies by HPI Harald Sack (Spring 2014, HPI)](https://open.hpi.de/courses/semanticweb2014)
+
 
 # Other resources (Blog posts/Articles/Papers/Books)
 
