@@ -24,10 +24,10 @@ https://github.com/oxford-cs-deepnlp-2017/lectures
 ## Machine Translation
 [Machine Translation](http://mt-class.org/)
 
-# Semantic Web Technologies
+## Semantic Web Technologies
 [Semantic Web Technologies by HPI Harald Sack (Spring 2013, HPI)](https://open.hpi.de/courses/semanticweb)
 
-# Knowledge Engineering with Semantic Web Technologies
+## Knowledge Engineering with Semantic Web Technologies
 [Knowledge Engineering with Semantic Web Technologies by HPI Harald Sack (Spring 2014, HPI)](https://open.hpi.de/courses/semanticweb2014)
 
 
