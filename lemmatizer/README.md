@@ -7,7 +7,6 @@ The module uses a large knowledge bases consisting in almost 500,000 words with 
 To use this module we have to import it to our project.
 
 ```
-import lemmatizer
 from lemmatizer import Spanish_Lemmatizer
 ```
 
