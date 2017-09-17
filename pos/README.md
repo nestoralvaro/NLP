@@ -11,7 +11,7 @@ To use the tagger the first action is to import it to the project
 <br/>
 
 ```
-from POS_tagger import POS_tagger
+from pos import POS_tagger
 ```
 
 ##  Loading the tagger
@@ -22,8 +22,8 @@ The configuration variables are contained in the `config` file, so to use it we 
 <br/>
 
 ```
-from config import STANFORD_TAGGER_NAME
-from config import NLTK_TAGGER_NAME
+from pos.config import STANFORD_TAGGER_NAME
+from pos.config import NLTK_TAGGER_NAME
 ```
 
 
