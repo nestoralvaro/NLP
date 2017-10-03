@@ -95,14 +95,3 @@ spell_checker.correction("mobil") # mil
 As we can see there are different responses for the same word, all deppending on the corpus.
 <br/>
 Given these results, the recommendation is to use a corpus similar to the text that is going to be evaluated.
-
-### Obtaining the verbs in the sentence
-To obtain the verbs in hte sentence we run the following command
-
-```
-pos_tagger.detect_verbs(all_tags)
-# Result when using Stanford tagger:
-#   [u'es']
-# Result when using NLTK tagger:
-#   ['es']
-```
