@@ -26,7 +26,7 @@ spell_checker = Spanish_Spell_Checker()
 Lastly, we can check the spell of any word.
 
 ```
-self.spell_checker.correction("ohla") # hola
+spell_checker.correction("ohla") # hola
 ```
 
 
